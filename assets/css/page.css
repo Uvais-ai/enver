@@ -1,0 +1,85 @@
+
+/* Hero Section */
+section.hero-section .yellow {
+    width: 36px;
+}
+@media (max-width: 768px) {
+    .position-relative {
+        position: relative;
+    }
+    
+    .position-absolute {
+        position: absolute;
+    }
+
+    .translate-middle {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .first {
+        z-index: 1; /* Ensure the first image is on top */
+    }
+
+    .bottom-0 {
+        bottom: 0;
+    }
+
+    .end-0 {
+        right: 0;
+    }
+
+    .start-0 {
+        left: 0;
+    }
+
+    .start-100 {
+        left: 100%;
+        transform: translateX(-100%);
+    }
+
+    .top-0 {
+        top: 0;
+    }
+
+    .top-100 {
+        top: 100%;
+        transform: translateY(-100%);
+    }
+}
+
+@media (max-width: 575.98px) {
+    .position-absolute {
+        position: absolute !important;
+        top: unset !important; /* Remove top positioning */
+        left: unset !important; /* Remove left positioning */
+        transform: unset !important; /* Remove translation */
+    }
+
+    .img-fluid {
+        max-width: 100% !important; /* Ensure the image takes full width */
+        height: auto !important; /* Maintain aspect ratio */
+    }
+
+    .first {
+        left: 0 !important; /* Adjust left position */
+    }
+
+    .two {
+        right: 0 !important; /* Adjust left position */
+    }
+
+    .four {
+        left: 0 !important; /* Adjust left position */
+    }
+
+    .five {
+        right: 0 !important; /* Adjust left position */
+    }
+
+    .top-100 {
+        top: 100% !important; /* Adjust top position */
+    }
+}
+
