@@ -41,7 +41,7 @@ body {
     border-color: rgb(214, 214, 214);
     color: rgb(214, 214, 214);
     width: 130px;
-}
+} 
 
 /* BUTTON SECONARY */
 
@@ -141,6 +141,22 @@ a.nav-link {
 
     a.nav-link {
         margin-right: 7px 0;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .tryok {
+        margin: auto;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .collapse {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(15px);
+        border-radius: 10px;
+        transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        padding: 0.7rem;
     }
 }
 
