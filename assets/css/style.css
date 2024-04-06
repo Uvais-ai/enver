@@ -35,7 +35,130 @@ body {
     --font-weight-light: 300;
 }
 
+/* BUTTON PRIMARY */
 
+.white-border {
+    border-color: rgb(214, 214, 214);
+    color: rgb(214, 214, 214);
+    width: 130px;
+} 
+
+/* BUTTON SECONARY */
+
+.btn-seconary {
+    background-color: var(--btn-blue);
+    color: var(--white);
+}
+
+.btn-seconary:focus {
+    background-color: var(--white);
+    box-shadow: 0px 4px 19px rgb(0, 0, 0, 0.05) !important;
+    color: var(--gray-1);
+}
+
+.btn-seconary:hover {
+    background-color: var(--white) !important;
+    box-shadow: 0px 4px 19px rgb(0, 0, 0, 0.05) !important;
+    color: var(--gray-1);
+}
+
+
+/* NAVBAR */
+
+.navbar-brand img {
+    padding-right: 10px;
+}
+
+.navbar-brand span {
+    font-size: var(--text-medium);
+    font-weight: var(--font-weight-medium);
+    color: var(--white);
+}
+
+.navbar {
+    padding: 28px 0;
+}
+
+a.nav-link {
+    margin: auto;
+    font-size: var(--text-regular);
+    font-weight: var(--font-weight-regular);
+    color: var(--btn-white) !important;
+}
+
+/* DESKTOP VERSION ONLY */
+
+@media (min-width: 1399.98px) {
+
+    .container {
+        width: 84%;
+    }
+}
+
+/* MOBILE VERSION ONLY */
+
+@media (max-width: 576px) {
+
+    /* NAVBAR */
+
+    .navbar {
+        padding: 28px 0;
+    }
+
+    a.nav-link {
+        margin-right: 7px 0;
+    }
+
+    .ms-3 {
+        margin-left: 0 !important;
+    }
+}
+
+/* TABLE SMALL VERSION ONLY */
+
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+
+    .navbar {
+        padding: 28px 0;
+    }
+
+    a.nav-link {
+        margin-right: 7px 0;
+    }
+}
+
+/* TABLE MEDIUM $ LARGE VERSION ONLY */
+
+@media (max-width: 991px) {
+    
+    /* NAVBAR */
+
+    .navbar {
+        padding: 28px 0;
+    }
+
+    a.nav-link {
+        margin-right: 7px 0;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .tryok {
+        margin: auto;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .collapse {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(15px);
+        border-radius: 10px;
+        transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        padding: 0.7rem;
+    }
+}
 
 
 @media (max-width: 992px) {
@@ -369,6 +492,14 @@ section .portfolio {
 footer {
     padding: 20px 0; 
     line-height: 40px;
+}
+
+.navbar-brand img {
+    margin-right: 10px; 
+}
+
+.navbar-brand span {
+    font-weight: bold; 
 }
 
 .nav-link {
