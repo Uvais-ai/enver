@@ -98,7 +98,7 @@
       margin-top:20px;
   }
   .owl-controls .owl-buttons .owl-prev{
-      background: #5454D4;
+      background: rgb(214, 214, 214);
       position: absolute;
       left:250px;
       padding: 0 18px 0 15px;
@@ -106,7 +106,7 @@
       transition: background 0.5s ease 0s;
   }
   .owl-controls .owl-buttons .owl-next{
-      background: #5454D4;
+      background: rgb(214, 214, 214);
       position: absolute;
       right: 280px;
       padding: 0 15px 0 18px;
